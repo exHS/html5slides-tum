@@ -1,7 +1,7 @@
-.slides.template-uulm-in section > article:not(.fill):not(.title-slide):before{
+.slides.template-tum-in section > article:not(.fill):not(.title-slide):before{
 	content:"";
 	display:block;
-	border-top:2px solid rgb(163,38,56);
+	border-top:2px solid  #0A5096;
 	position: absolute;
 	width: 100%;
 	height: 2px;
@@ -12,7 +12,7 @@
 
 
 
-.slides.template-uulm-in section > article:not(.fill):not(.title-slide) .slide-nr{
+.slides.template-tum-in section > article:not(.fill):not(.title-slide) .slide-nr{
 	display:inline;
 	position: absolute;
 	color: #eee;
@@ -27,13 +27,13 @@
 	padding-left:6px;
 	padding-right:6px;
 	margin:0;
-	background: rgb(163,38,56);
+	background:  #0A5096;
 	text-align:center;
 }
 
 
 
-.slides.template-uulm-in section > article.title-slide img {
+.slides.template-tum-in section > article.title-slide img {
   position: absolute;
   left: 0;
   top: 20%;
@@ -48,10 +48,10 @@
   z-index: -1;
 }
 
-.slides.template-uulm-in section > article h1, .slides.template-uulm-in section > article h2, .slides.template-uulm-in section > article h3{
-	color: rgb(163,38,56);
+.slides.template-tum-in section > article h1, .slides.template-tum-in section > article h2, .slides.template-tum-in section > article h3{
+	color: #0A5096;
 }
-.slides.template-uulm-in section > article.title-slide #title{
+.slides.template-tum-in section > article.title-slide #title{
 	font-size: 48px;
 	  position: absolute;
 	  left: 50%;
@@ -62,7 +62,7 @@
 }
 
 
-.slides.template-uulm-in section > article.title-slide #subtitle{
+.slides.template-tum-in section > article.title-slide #subtitle{
 	font-size: 28px;
 	  position: absolute;
 	  left: 50%;
@@ -72,7 +72,7 @@
 	padding:0;
 }
 
-.slides.template-uulm-in section > article.title-slide #author{
+.slides.template-tum-in section > article.title-slide #author{
 	font-size: 28px;
 	  position: absolute;
 	  left: 5%;
@@ -82,60 +82,70 @@
 	padding:0;
 }
 
-.slides.template-uulm-in section > article.title-slide #uulm-logo {
+
+.slides.template-tum-in section > article.title-slide #tum-title {
 	  position: absolute;
-	  left: 50%;
+	  left: 58%;
 	  top: 4%;
 	  z-index: -2;
 	  width: 38%;
 	  min-width: 38%;
-
-
-	min-height: 10%;
-	  height: 10%;	 
+	  min-height: 13%;
+	  height: 13%;	 
 
 }
 
 
+.slides.template-tum-in section > article.title-slide #tum-logo {
+	  position: absolute;
+	  left: 26%;
+	  top: 3%;
+	  z-index: -2;
+	  width: 55%;
+	  min-width: 55%;
+	  min-height: 13%;
+	  height: 13%;	 
 
-.slides.template-uulm-in section > article:not(.fill){
+}
+
+.slides.template-tum-in section > article:not(.fill){
 	padding-top: 100px;
 	padding-left: 80px;
 	padding-right: 80px;
 	padding-bottom: 32px;
 }
 
-.slides.template-uulm-in section > article:not(.nobackground):not(.biglogo) {
+.slides.template-tum-in section > article:not(.nobackground):not(.biglogo) {
   background-color: white;  
 }
 
-.slides.template-uulm-in li::before {
-	color: rgb(163,38,56);
+.slides.template-tum-in li::before {
+	color:  #0A5096;
 }
 
-.slides.template-uulm-in td{
+.slides.template-tum-in td{
   background: rgba(169,162,141,0.4);
   padding: 5px 10px;
   vertical-align: top;
 }
 
-.slides.template-uulm-in th{
+.slides.template-tum-in th{
   background: rgba(169,162,141,0.8);
   padding: 5px 10px;
   vertical-align: top;
   color:#eee;
 }
 
-.slides.template-uulm-in iframe {
+.slides.template-tum-in iframe {
   height: 580px;
 }
 
-.slides.template-uulm-in h3 + iframe {
+.slides.template-tum-in h3 + iframe {
   margin-top: 40px;
   height: 480px;
 }
 
-.slides.template-uulm-in section article.fill iframe {
+.slides.template-tum-in section article.fill iframe {
   position: absolute;
   left: 0;
   top: 0;
@@ -154,32 +164,12 @@
 }
 
 
-.uulm-color {
-  color: rgb(125,154,170);
+.tum-color {
+  color: #0A5096;
 }
 
-.mawi-color {
-  color: rgb(86,170,28);
-}
-
-.in-color {
-  color: rgb(163,38,56);
-}
-
-.nawi-color {
-  color: rgb(189,96,5);
-}
-
-.med-color {
-  color: rgb(38,84,124);
-}
-
-.accent-color {
-  color: rgb(169,162,141);
-}
-
-.slides.template-uulm-in a{
-	color: rgb(125,154,170);
+.slides.template-tum-in a{
+	color: #7D9AAA;
 }
 
 a{
