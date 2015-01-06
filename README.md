@@ -1,6 +1,6 @@
-# html5slides-uulm
+# html5slides-tum
 
-An HTML5-based slide deck, styled in Ulm University corporate design. The slides are based on the html5slides Google I/O 2011 template (http://code.google.com/p/html5slides/).
+An HTML5-based slide deck, styled in Technische Universität München corporate design. The slides are based on the html5slides Google I/O 2011 template (http://code.google.com/p/html5slides/).
 
 ## Examples / HowTo
 
